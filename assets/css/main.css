@@ -225,10 +225,13 @@ input, select, textarea {
 		-ms-transform: translate3d(0,0,0);
 		transform: translate3d(0,0,0);
 	/* Set your background with this */
-
-		background: #348cb2 url("images/bg.jpg") bottom left;
-		background-repeat: repeat-x;
+		background-image:linear-gradient(45deg, blue, purple, blue);
+		/* background: #348cb2 url("images/bg.jpg") bottom left; */
+		filter: blur(1px);
+  		-webkit-filter: blur(1px);
+		/* background-repeat: repeat-x; */
 		height: 100%;
+		width: 100%;
 		left: 0;
 		opacity: 1;
 		position: fixed;
