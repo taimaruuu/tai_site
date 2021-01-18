@@ -229,7 +229,7 @@ input, select, textarea {
 		background: #348cb2 url("images/bg.jpg") bottom left;
 		filter: blur(1px);
   		-webkit-filter: blur(1px);
-		/* background-repeat: repeat-x; */
+		background-repeat: repeat-x;
 		height: 100%;
 		width: 100%;
 		left: 0;
